@@ -10,10 +10,7 @@ function Homepage() {
       <div className="container">
         <img style={{width:"220px", padding:"6px"}} src="https://api.amaranga.ru/images/Amaranga-black.png" alt="" />
         <p>
-          This is a template for a simple marketing or informational website. It
-          includes a large callout called a jumbotron and three supporting
-          pieces of content. Use it as a starting point to create something more
-          unique.
+          This is a game room ... 
         </p>
         <p>
           <a className="btn btn-primary btn-lg" href="#" role="button">

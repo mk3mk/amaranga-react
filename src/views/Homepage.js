@@ -8,7 +8,7 @@ function Homepage() {
     {/* Main jumbotron for a primary marketing message or call to action */}
     <div className="jumbotron">
       <div className="container">
-        <h1 className="display-3">Hello, world!</h1>
+        <img style={{width:"220px", padding:"6px"}} src="https://api.amaranga.ru/images/Amaranga-black.png" alt="" />
         <p>
           This is a template for a simple marketing or informational website. It
           includes a large callout called a jumbotron and three supporting

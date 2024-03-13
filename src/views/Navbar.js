@@ -18,7 +18,7 @@ function Navbar() {
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
         <div class="container-fluid">
           <Link class="navbar-brand" to="/">
-            <img style={{width:"120px", padding:"6px"}} src="https://api.amaranga.ru/images/logo-0033.png" alt="" />
+            <img style={{width:"120px", padding:"6px"}} src="https://api.amaranga.ru/images/Amaranga-white.png" alt="" />
 
           </Link>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,31 +30,27 @@ function Navbar() {
                 <Link class="nav-link active" aria-current="page" to="/">Home</Link>
               </li>
               <li class="nav-item">
-                <Link class="nav-link" to="/blogpage">Blog</Link>
+                <Link class="nav-link active" aria-current="page" to="/blogpage">Blog</Link>
               </li>
               {token === null && 
               <>
-                <div className="privat_section">
-                    <li class="nav-item">
-                      <Link class="nav-link" to="/login">Login</Link>
-                    </li>
-                    <li class="nav-item">
-                      <Link class="nav-link" to="/register">Register</Link>
-                    </li>
-                </div>
+                <li class="nav-item">
+                  <Link class="nav-link" to="/login">Login</Link>
+                </li>
+                <li class="nav-item">
+                  <Link class="nav-link" to="/register">Register</Link>
+                </li>
               </>
               }
 
             {token !== null && 
               <>
-                <div className="privat_section">
-                    <li class="nav-item">
-                      <Link class="nav-link" to="/dashboard">Dashboard</Link>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" onClick={logoutUser} style={{cursor:"pointer"}}>Logout</a>
-                    </li>
-                </div>
+                <li class="nav-item">
+                  <Link class="nav-link" to="/dashboard">Dashboard</Link>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" onClick={logoutUser} style={{cursor:"pointer"}}>Logout</a>
+                </li>
               </>
               }   
               

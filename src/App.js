@@ -20,10 +20,10 @@ function App() {
         < Navbar/>
         <Switch>
           <PrivateRoute component={Dashboard} path="/dashboard" exact />
-          <Route component={Blogpage} path="/blogpage" />
           <Route component={Loginpage} path="/login" />
           <Route component={Registerpage} path="/register" exact />
           <Route component={Homepage} path="/" exact />
+          <Route component={Blogpage} path="/blogpage" exact />
         </Switch>
       </AuthProvider>
     </Router>

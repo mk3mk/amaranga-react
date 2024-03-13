@@ -1,6 +1,9 @@
 import React from 'react'
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCoffee } from '@fortawesome/free-solid-svg-icons'
+import { faHeart } from '@fortawesome/free-solid-svg-icons';
 
 function Blogpage() {
   return (
@@ -24,11 +27,31 @@ function Blogpage() {
         </p>
       </div>
     </div>
+
+
+
+
+    <Container>
+      <Row>
+        <Col>1 of 2</Col>
+        <Col>2 of 2</Col>
+      </Row>
+      <Row>
+        <Col>1 of 3</Col>
+        <Col>2 of 3</Col>
+        <Col>3 of 3</Col>
+      </Row>
+    </Container>
+
+
+
+
+
     <div className="container">
       {/* Example row of columns */}
       <div className="row">
         <div className="col-md-4">
-        <FontAwesomeIcon icon={faCoffee} />
+          <FontAwesomeIcon icon={faHeart} />
           <h2>Heading</h2>
           <p>
             Donec id elit non mi porta gravida at eget metus. Fusce dapibus,
@@ -43,7 +66,7 @@ function Blogpage() {
           </p>
         </div>
         <div className="col-md-4">
-        <FontAwesomeIcon icon={faCoffee} />
+        <FontAwesomeIcon icon={faHeart} />
           <h2>Heading</h2>
           <p>
             Donec id elit non mi porta gravida at eget metus. Fusce dapibus,
@@ -58,7 +81,7 @@ function Blogpage() {
           </p>
         </div>
         <div className="col-md-4">
-        <FontAwesomeIcon icon={faCoffee} />
+        <FontAwesomeIcon icon={faHeart} />
           <h2>Heading</h2>
           <p>
             Donec sed odio dui. Cras justo odio, dapibus ac facilisis in,

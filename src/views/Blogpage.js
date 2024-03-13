@@ -1,4 +1,6 @@
 import React from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 
 function Blogpage() {
   return (
@@ -26,6 +28,7 @@ function Blogpage() {
       {/* Example row of columns */}
       <div className="row">
         <div className="col-md-4">
+        <FontAwesomeIcon icon={faCoffee} />
           <h2>Heading</h2>
           <p>
             Donec id elit non mi porta gravida at eget metus. Fusce dapibus,
@@ -40,6 +43,7 @@ function Blogpage() {
           </p>
         </div>
         <div className="col-md-4">
+        <FontAwesomeIcon icon={faCoffee} />
           <h2>Heading</h2>
           <p>
             Donec id elit non mi porta gravida at eget metus. Fusce dapibus,
@@ -54,6 +58,7 @@ function Blogpage() {
           </p>
         </div>
         <div className="col-md-4">
+        <FontAwesomeIcon icon={faCoffee} />
           <h2>Heading</h2>
           <p>
             Donec sed odio dui. Cras justo odio, dapibus ac facilisis in,

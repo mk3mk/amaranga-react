@@ -24,6 +24,7 @@ function Homepage() {
       <div className="row">
         <div className="col-md-4">
           <h2>Heading</h2>
+          <img style={{width:"100%", padding:"6px"}} src="https://api.amaranga.ru/images/Game-01.png" alt="" />
           <p>
             Donec id elit non mi porta gravida at eget metus. Fusce dapibus,
             tellus ac cursus commodo, tortor mauris condimentum nibh, ut
@@ -38,6 +39,7 @@ function Homepage() {
         </div>
         <div className="col-md-4">
           <h2>Heading</h2>
+          <img style={{width:"100%", padding:"6px"}} src="https://api.amaranga.ru/images/Game-02.png" alt="" />
           <p>
             Donec id elit non mi porta gravida at eget metus. Fusce dapibus,
             tellus ac cursus commodo, tortor mauris condimentum nibh, ut
@@ -52,6 +54,7 @@ function Homepage() {
         </div>
         <div className="col-md-4">
           <h2>Heading</h2>
+          <img style={{width:"100%", padding:"6px"}} src="https://api.amaranga.ru/images/Game-03.png" alt="" />
           <p>
             Donec sed odio dui. Cras justo odio, dapibus ac facilisis in,
             egestas eget quam. Vestibulum id ligula porta felis euismod semper.

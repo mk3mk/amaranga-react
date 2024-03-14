@@ -1,4 +1,5 @@
 import React from 'react'
+import {useEffect} from 'react'
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -6,6 +7,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHeart } from '@fortawesome/free-solid-svg-icons';
 
 function Blogpage() {
+  useEffect(() => {
+    document.title = 'Blog';
+  }, []);
   return (
     <div>
       <>

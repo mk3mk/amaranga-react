@@ -1,7 +1,19 @@
 import {useState, useEffect} from 'react'
 import useAxios from "../utils/useAxios"
 import jwtDecode from 'jwt-decode'
+
+
+
+
+
+
+
+
 function Dashboard() {
+
+  useEffect(() => {
+    document.title = 'Dashboard';
+  }, []);
 
     const [res, setRes] = useState("")
     const api = useAxios();

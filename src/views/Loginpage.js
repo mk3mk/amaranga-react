@@ -1,10 +1,15 @@
 import React, { useContext } from 'react'
+import {useEffect} from 'react'
 import { Link } from 'react-router-dom'
 import AuthContext from '../context/AuthContext'
 
 
 
 function Loginpage() {
+
+  useEffect(() => {
+    document.title = 'Login';
+  }, []);
 
   const {loginUser} = useContext(AuthContext)
   const handleSubmit = e => {

@@ -1,9 +1,14 @@
 import {useState, useContext} from 'react'
+import {useEffect} from 'react'
 import { Link } from 'react-router-dom'
 import AuthContext from '../context/AuthContext'
 
 
 function Registerpage() {
+
+  useEffect(() => {
+    document.title = 'Register';
+  }, []);
 
   const [email, setEmail] = useState("")
   const [username, setUsername] = useState("")

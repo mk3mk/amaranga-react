@@ -1,6 +1,10 @@
 import React from 'react'
+import {useEffect} from 'react'
 
 function Homepage() {
+  useEffect(() => {
+    document.title = 'Amaranga';
+  }, []);
   return (
     <div>
       <>

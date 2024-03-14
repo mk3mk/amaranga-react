@@ -56,6 +56,25 @@ function Dashboard() {
     }, [])
 
 
+    useEffect(() => {
+      const fetchData = async () => {
+        try{
+          
+          let qweqweqw = (s,r) =>  {
+            let rerer = s + r
+            console.log(rerer)
+          }
+          qweqweqw(55, 63)
+          
+        } catch (error) {
+          console.log(error);
+          setRes("Something went wrong")
+        }
+      }
+      fetchData()
+    }, [])
+
+
   return (
     <div>
       <>

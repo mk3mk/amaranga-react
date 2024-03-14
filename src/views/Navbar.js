@@ -48,6 +48,11 @@ function Navbar() {
                 <li class="nav-item">
                   <Link class="nav-link" to="/dashboard">Dashboard</Link>
                 </li>
+                {user_id == 1 &&
+                <li class="nav-item">
+                  <Link class="nav-link" to="/devpage">Devpage</Link>
+                </li>
+                }
                 <li class="nav-item">
                   <a class="nav-link" onClick={logoutUser} style={{cursor:"pointer"}}>Logout</a>
                 </li>

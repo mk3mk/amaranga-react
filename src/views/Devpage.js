@@ -39,18 +39,19 @@ function Devpage() {
 
 
     <Container>
-      <Row>
-        <Col>1 of 2
-        
-        <Form01 />
-        
-        </Col>
-        <Col>2 of 2</Col>
+    <Row>
+        <Col className="mycol"><h2>Heading</h2></Col>
       </Row>
       <Row>
-        <Col>1 of 3</Col>
-        <Col>2 of 3</Col>
-        <Col>3 of 3</Col>
+        <Col className="mycol">
+        <Form01 />
+        </Col>
+        <Col className="mycol">2 of 2</Col>
+      </Row>
+      <Row>
+        <Col className="mycol">1 of 3</Col>
+        <Col className="mycol">2 of 3</Col>
+        <Col className="mycol">3 of 3</Col>
       </Row>
     </Container>
 
@@ -61,7 +62,7 @@ function Devpage() {
     <div className="container">
       {/* Example row of columns */}
       <div className="row">
-        <div className="col-md-4">
+        <div className="mycart col-md-4">
           <FontAwesomeIcon icon={faHeart} />
           <h2>Heading</h2>
           <p>
@@ -76,7 +77,7 @@ function Devpage() {
             </a>
           </p>
         </div>
-        <div className="col-md-4">
+        <div className="mycart col-md-4">
         <FontAwesomeIcon icon={faHeart} />
           <h2>Heading</h2>
           <p>
@@ -91,7 +92,7 @@ function Devpage() {
             </a>
           </p>
         </div>
-        <div className="col-md-4">
+        <div className="mycart col-md-4">
         <FontAwesomeIcon icon={faHeart} />
           <h2>Heading</h2>
           <p>

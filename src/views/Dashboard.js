@@ -180,7 +180,7 @@ function Dashboard() {
           <strong>{res}</strong>
         </div>
         <h2>Section title</h2>
-        <div className="table-responsive">
+        <div className="dashboard btable-responsive">
           <table className="table table-striped table-sm">
             <thead>
               <tr>

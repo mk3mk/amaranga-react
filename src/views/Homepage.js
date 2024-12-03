@@ -20,11 +20,11 @@ function Homepage() {
         <p>
           This is a game room ... 
         </p>
-        <p>
+
           <a className="btn btn-primary btn-lg" href="#" role="button">
             Learn more »
           </a>
-        </p>
+
       </div>
     </div>
     <div className="container">
@@ -38,11 +38,11 @@ function Homepage() {
           <p>
           Cubes — это увлекательная логическая игра, где игроки погружаются в мир трехмерных головоломок и пространственного мышления. Ваша задача — манипулировать разноцветными кубами, чтобы решить различные задачи и пройти уровни. Каждый уровень предлагает уникальные вызовы: от простых комбинаций до сложных механик, требующих стратегического мышления и быстроты реакции...{" "}
           </p>
-          <p>
+
             <a className="btn btn-secondary" href="https://amaranga.ru/games/cubes/" role="button">
               View details »
             </a>
-          </p>
+
         </div>
 
 
@@ -98,8 +98,8 @@ function Homepage() {
 
 
         <div className="col-md-4 mycart">
-          <h2>Roulette</h2>
-          <img style={{width:"100%", padding:"6px"}} src="https://api.amaranga.ru/images/Roulette.png" alt="" />
+          <h2>Cards</h2>
+          <img style={{width:"100%", padding:"6px"}} src="https://api.amaranga.ru/images/cards-01.png" alt="" />
           <p>
             Donec id elit non mi porta gravida at eget metus. Fusce dapibus,
             tellus ac cursus commodo, tortor mauris condimentum nibh, ut
@@ -107,7 +107,7 @@ function Homepage() {
             magna mollis euismod. Donec sed odio dui.{" "}
           </p>
           <p>
-            <a className="btn btn-secondary" href="https://amaranga.ru/games/roulette/" role="button">
+            <a className="btn btn-secondary" href="https://amaranga.ru/games/cards/" role="button">
               View details »
             </a>
           </p>
@@ -123,9 +123,9 @@ function Homepage() {
             magna mollis euismod. Donec sed odio dui.{" "}
           </p>
           <p>
-            <Link className="btn btn-secondary" to="https://amaranga.ru/games/roulette/" role="button">
+            <a className="btn btn-secondary" href="https://amaranga.ru/games/roulette/" role="button">
               View details »
-            </Link>
+            </a>
           </p>
         </div>
 

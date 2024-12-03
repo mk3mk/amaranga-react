@@ -5,6 +5,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHeart } from '@fortawesome/free-solid-svg-icons';
+import Form01 from '.././components/Form01'
 
 function Devpage() {
 
@@ -39,7 +40,11 @@ function Devpage() {
 
     <Container>
       <Row>
-        <Col>1 of 2</Col>
+        <Col>1 of 2
+        
+        <Form01 />
+        
+        </Col>
         <Col>2 of 2</Col>
       </Row>
       <Row>
